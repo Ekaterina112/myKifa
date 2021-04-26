@@ -1,0 +1,74 @@
+.mainContainer {
+    min-height: 100vh;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.acountContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    width: 852px;
+    height: 382px;
+    padding: 8px;
+    box-shadow: 0 0 19px rgba(7, 108, 218, 0.2);
+    border-radius: 5px;
+}
+
+.loginBlock {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.loginBlock a {
+    color: #007AFF;
+
+}
+.loginBlock h6 {
+    margin: 0;
+    color: #007AFF;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+}
+
+.createBlock {
+    width: 50%;
+    height: 100%;
+    background: #007AFF;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.createBlock a {
+    color: white;
+}
+.createBlock input::placeholder{
+    color: white;
+}
+.createBlock h6 {
+    margin: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+}

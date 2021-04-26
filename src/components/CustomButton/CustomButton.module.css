@@ -1,0 +1,8 @@
+.customButton button {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+    border: transparent;
+    border-radius: 5px;
+    padding: 9px;
+}
