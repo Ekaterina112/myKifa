@@ -35,8 +35,9 @@
     color: #007AFF;
 
 }
-.loginBlock h6 {
+.loginBlock h3 {
     margin: 0;
+    padding: 0;
     color: #007AFF;
     font-weight: 700;
     font-size: 28px;
@@ -64,8 +65,9 @@
 .createBlock input::placeholder{
     color: white;
 }
-.createBlock h6 {
+.createBlock h3 {
     margin: 0;
+    padding: 0;
     color: white;
     font-weight: 700;
     font-size: 28px;

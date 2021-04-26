@@ -17,7 +17,7 @@ const LoginPage = () => {
             <PreviewBlock/>
             <div className={s.acountContainer}>
                 <div className={s.loginBlock}>
-                    <h6>Log In</h6>
+                    <h3>Log In</h3>
                     <form>
                         <CustomInput type={'email'} placeholder={'Email'}/>
                         <CustomInput type={'password'} placeholder={'Password'}/>
@@ -29,7 +29,7 @@ const LoginPage = () => {
 
                 </div>
                 <div className={s.createBlock}>
-                    <h6>Create an Account</h6>
+                    <h3>Create an Account</h3>
                     <form>
                         <CustomInput type={'email'} placeholder={'Email'}/>
                         <CustomInput type={'password'} placeholder={'Password'}/>
